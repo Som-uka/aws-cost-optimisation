@@ -1,0 +1,20 @@
+# Credentials and secrets — never commit
+*.pem
+*.key
+*.env
+.env
+credentials
+*credential-report*.csv
+aws-config.json
+secrets.json
+
+# Local / OS
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Editor
+.vscode/
+.idea/
+*.swp
